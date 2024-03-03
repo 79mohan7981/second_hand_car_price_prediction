@@ -1,16 +1,30 @@
-Repository Description:
+# Second-Hand Car Price Prediction
 
-This repository hosts a second-hand car price prediction model developed using both linear regression and Lasso regression techniques. 
-These models are trained on a dataset comprising historical car sale information to accurately predict the price of used cars based on various features.
-Moreover, the implementation includes the calculation of the R-squared error score to evaluate the model's performance.
 
-Additionally, the prediction models have been deployed using Streamlit, providing an intuitive user interface for predicting car prices. 
-The repository includes comprehensive documentation and instructions for usage, enabling easy deployment and further development.
+## Overview
+This repository contains a second-hand car price prediction model developed using both linear regression and Lasso regression techniques. The models are trained on historical data to accurately predict the price of used cars based on various features. Additionally, the R-squared error score is calculated to evaluate the model's performance.
 
-Key Features:
+The prediction models have been deployed using Streamlit, providing an intuitive user interface for predicting car prices. This README provides an overview of the project, instructions for usage, and guidelines for contributions.
 
-    1.Implementation of linear regression and Lasso regression models for second-hand car price prediction.
-    2.Utilization of historical data for model training and evaluation.
-    3.Calculation and display of the R-squared error score to assess model performance.
-    4.Deployment of prediction models using Streamlit, offering an interactive user interface.
-    5.Documentation and instructions for usage and further development.
+## Key Features
+- **Linear Regression and Lasso Regression Models**: Implementation of models for second-hand car price prediction.
+- **R-Squared Error Score**: Calculation and display of the R-squared error score to assess model performance.
+- **Streamlit Deployment**: Deployment of prediction models using Streamlit, offering an interactive user interface.
+- **Documentation**: Comprehensive documentation and instructions for usage and further development.
+
+## Usage
+
+Train the model:
+Run the Jupyter notebook train_model.ipynb to train the linear regression and Lasso regression models using the provided dataset.
+Evaluate model performance:
+Check the R-squared error score to evaluate the performance of the trained models.
+Deployment:
+Run the Streamlit app to deploy the trained models:
+
+    pip install -r requirements.txt
+    Run the Streamlit app:
+    Open your web browser and navigate to `http://localhost:8501` to access the Streamlit app.
+    Use the interface to input the features of the car and get the predicted price.
+    
+    git clone https://github.com/79mohan7981/second_hand_car_price_prediction.git
+
